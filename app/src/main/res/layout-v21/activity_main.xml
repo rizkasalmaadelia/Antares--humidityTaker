@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Data"
+            android:textSize="24sp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtData"
+            android:backgroundTint="#F3F5F9"
+            >
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="#ff6961"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="30dp"
+                android:text="Refresh"/>
+
+            <Button
+                android:id="@+id/btnOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:layout_below="@id/btnRefresh"
+                android:backgroundTint="#ff6961"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <Button
+                android:id="@+id/btnOff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Off"
+                android:backgroundTint="#ff6961"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btnOn"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Antares</string>
+    <string name="kelembaban_tanah">Kelembaban Tanah:</string>
+    <string name="tidak_ada_data">Tidak ada Data</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="refresh">Refresh</string>
+</resources>
